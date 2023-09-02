@@ -17,9 +17,10 @@ const Home = async () => {
 
   return (
 
-    <body className=" appwhite max-w-[50%] mx-auto flex justify-center ">
+    <body className="appwhite max-w-[50%] mx-auto relative">
 
-      <div className=" absolute circle rounded-full flex justify-center items-center mt-96  ">
+      <div className="absolute circle rounded-full flex justify-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mt-74">
+
       </div>
 
       <div className="relative grid h-screen place-content-center  ">
