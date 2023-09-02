@@ -17,12 +17,15 @@ const Home = async () => {
 
   return (
 
-    <body className="relative appwhite max-w-[50%] mx-auto flex justify-center items-end">
+    <body className=" appwhite max-w-[50%] mx-auto flex justify-center ">
 
-      <main className="absolute circle rounded-full  items-center place-content-end mb-11">
-      </main>
-      <div className="relative grid h-screen place-content-center pb-96 ">
+      <div className=" absolute circle rounded-full flex justify-center items-center mt-96  ">
+      </div>
+
+      <div className="relative grid h-screen place-content-center  ">
+        <div className="text-extralight text-2xl text-center lg:text-6xl lg:text-left ">Simple Todo</div>
         <div className="pt-11">
+
           <TaskListForm />
         </div>
 
@@ -32,7 +35,7 @@ const Home = async () => {
         {tasks?.length !== 0 ? <LeftSide tasks={tasks} /> : ''}
 
 
-        <div className="w-full mt-6">
+        <div className="w-1/2 flex justify-center  mt-6 lg:w-full">
 
           <Tasktable tasks={tasks} />
 
