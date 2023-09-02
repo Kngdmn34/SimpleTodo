@@ -19,7 +19,7 @@ const Home = async () => {
 
     <body className="appwhite max-w-[50%] mx-auto relative">
 
-      <div className="absolute circle rounded-full flex justify-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mt-74">
+      <div className="absolute circle rounded-full flex justify-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y mt-74 animate-slowPulse">
 
       </div>
 

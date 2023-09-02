@@ -13,7 +13,21 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      
     },
+    keyframes :{
+       slowPulse: {
+        "0%, 100%": {
+          transform: 'scale(1)'
+        },
+        '50%': {
+          transform: 'scale(1.05)'
+        }
+      }
+    }
+  
+    
+   
   },
   plugins: [],
 }
