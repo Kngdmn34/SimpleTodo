@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+1.Method : https://simple-todo-1nh0hkadm-kngdmn34.vercel.app/
+
+2.
+
 First, run the development server:
 
 ```bash
